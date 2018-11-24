@@ -1,0 +1,35 @@
+{
+    "places": [
+        {
+            "lokasi": [-6.315111, 106.900760],
+            "sponsor": "Kowok Coffee",
+            "gambar": "../images/kowok-coffee.jpg",
+            "review":""
+
+        },
+        {
+            "lokasi": [-6.334252, 106.896930],
+            "sponsor": "Relatives Coffee",
+            "gambar": "../images/relatives-coffee.jpg",
+            "review": "Kowok Coffee - Tempat yang kopinya enak dan nyaman ditambah banyaknya tumbuhan membuat tambah relax"
+        },
+        {
+            "lokasi": [-6.331118, 106.900038],
+            "sponsor": "Mie Ayam Bakso Jangkung",
+            "gambar": "../images/mie-ayam-bakso-jangkung.jpg",
+            "review": "Relatives Coffee - Tempat buat remaja berkumpul dan "
+        },
+        {
+            "lokasi": [-6.327435, 106.902027],
+            "sponsor": "Bakso Linuwih",
+            "gambar": "../images/bakso-linuwih.jpg",
+            "review":""
+        },
+        {
+            "lokasi": [-6.337775, 106.898331],
+            "sponsor": "Masakan Padang Bagindo",
+            "gambar": "./images/masakan-padang-bagindo.jpg",
+            "review":""
+        }
+    ]
+}
