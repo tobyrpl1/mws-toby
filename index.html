@@ -3,66 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Toby Zulkarnain">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#151a1d">
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="main.json">
+    <link rel="shortcut icon" href="assets/images/icons/icon-72x72.png" type="image/x-icon">
 
     <title>Toby Zulkarnain - MWS 2018</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
     <div class="container">
         <header>
-            <figure>
-                <img class="logo" src="images/mws-toby.png" alt="Logo">
-            </figure>
-            <nav>
-                <h2>MWS - Toby Zulkarnain</h2>
-                <ul class="nav-layout">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="views/css-grid.html">CSS Grid</a></li>
-                    <li><a href="views/calculator.html">Calculator</a></li>
-                    <li><a href="view/mapbox.html">Mapbox</a></li>
-                </ul>
-            </nav>
+            <figure><img src="/assets/images/gdk.png" alt="logo-mws" class="logo"></figure>
+            <span id="by-mws"> <span><b>Mobile Web Specialist</b></span> <span>Jakarta</span></span>
         </header>
+        <div class="sidebar">
+            <div class="frame-bio">
+                <div class="main-bio">
+                    <figure>
+                        <img id="photo-profile" src="/assets/images/profile.jpeg" alt="myfoto">
+                    </figure>
+                    <h3>Toby Zulkarnain</h3>
+                </div>
+                <div class="bio">
+                    <h3>About Me</h3>
+                    <p>Hello Name Toby Zulkarnain, I am a student at the STMIK Nusa Mandiri campus from the Information
+                        Technology Faculty majoring in Information Engineering and working as an IT Developer in a
+                        private company.</p><br>
+                    <p> Contact:</p><br>
+                    <p>Email: <strong>tobyrpl1@gmail.com</strong></p><br>
+                    <p>Phone: <strong>+6282213215830</strong></p>
+                </div>
+                <div class="social-round">
+                    <a target="_blank" rel="noreferrer" href="//www.facebook.com/toby.zulka" aria-label="facebook"><img
+                            src="/assets/images/social-round/facebook-brands.svg" alt="facebook" class="fa-facebook"></a>
+                    <a target="_blank" rel="noreferrer" href="//www.instagram.com/toby.zulka" aria-label="instagram"><img
+                            src="/assets/images/social-round/instagram-brands.svg" alt="instagram" class="fa-instagram"></a>
+                    <a target="_blank" rel="noreferrer" href="//www.linkedin.com/in/toby-zulkarnain-a8b64a156"
+                        aria-label="linkedin"><img src="/assets/images/social-round/linkedin-brands.svg" alt="linkedin"
+                            class="fa-linkedin"></a>
+                </div>
 
-        <aside class="sidebar">
-            <img id="photo-profile" src="images/profile.jpg" alt="myfoto">
-        </aside>
+            </div>
+        </div>
 
-        <section class="main">
-            <div class="content">
-                <h2>CSS Grid</h2>
-                <a class="far fa-columns fa-7x" href="views/css-grid.html"></a></a>
+        <div class="main">
+            <div class="content card">
+                <a href="project1/css-grid.html">
+                    <img src="/assets/images/nav/grid.png" alt="grid"> <br>
+                    <span>
+                        Project 1 :
+                        <strong>CSS Grid</strong>
+                    </span>
+                </a>
             </div>
-            <div class="content">
-                <h2>Calculator</h2>
-                <a class="fas fa-calculator fa-7x" href="views/calculator.html"></a>
+            <div class="content card">
+                <a href="project2/calculator.html">
+                    <img src="/assets/images/nav/calc.png" alt="calculator"> <br>
+                    <span>
+                        Project 2 :
+                        <strong>Calculator</strong>
+                    </span>
+                </a>
             </div>
-            <div class="content">
-                <h2>Mapbox</h2>
-                <i></i>
-                <a  class="fas fa-map fa-7x" href="views/mapbox.html"></a>
+            <div class="content card">
+                <a href="project3/mapbox.html">
+                    <img src="/assets/images/nav/peta.png" alt="peta"> <br>
+                    <span>
+                        Project 3 :
+                        <strong>Mapbox - Favorite Place</strong>
+                    </span>
+                </a>
             </div>
-        </section>
+            <div class="content card">
+                <a href="project4/maps-fetch.html">
+                    <img src="/assets/images/nav/peta-wisata.png" alt="peta-wisata"> <br>
+                    <span>
+                        Project 4 :
+                        <strong>Mapbox Fetch - Vacation Spot</strong>
+                    </span>
+                </a>
+            </div>
+        </div>
 
         <footer>
-            <div class="about-me">
-                <h3>Toby Zulkarnain</h3>
-                <a target="_blank" href="//steamcommunity.com/id/sabo_od"><img src="images/social-round/steam.png" height="40px" style="position: relative; top: 1px;"></a>
-                <a target="_blank" href="//www.facebook.com/toby.zulka"><img src="images/social-round/facebook.png" height="40px" style="position: relative; top: 1px;"></a>
-                <a target="_blank" href="//www.instagram.com/toby.zulka"><img src="images/social-round/instagram.png" height="40px" style="position: relative; top: 1px;"></a>
-                <a target="_blank" href="//www.linkedin.com/in/toby-zulkarnain-a8b64a156"><img src="images/social-round/linkedin.png" height="40px" style="position: relative; top: 1px;"></a>
-            </div>
             <div class="footer-cell">Copyright &copy; 2018 - MWS Toby Zulkarnain</div>
         </footer>
     </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('SW terdaftar', reg))
+                    .catch(err => console.log('SW Gagal: ', err));
+            });
+        }
+    </script>
 </body>
 
 </html>

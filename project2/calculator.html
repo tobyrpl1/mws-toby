@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#151a1d">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="shortcut icon" href="../assets/images/icons/icon-72x72.png" type="image/x-icon">
+
+    <title>Toby Zulkarnain - MWS 2018</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <script src="../assets/js/calculator.js"></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/style0.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <figure><img src="../assets/images/gdk.png" alt="logo-mws" class="logo"></figure>
+            <span id="by-mws"> <span><b>Mobile Web Specialist</b></span> <span>Jakarta</span></span>
+        </header>
+        <div id="menu-navigation"></div>
+        <div class="main-des">
+            <form name="myform" class="form">
+                <div class="title" align="center">
+                    <h1><b>Calculator Standard</b></h1>
+                </div>
+
+                <div class=" table" align="center">
+                    <table border="1">
+                        <br></br>
+                        1st number = <input type="text" name="angka1">
+                        <br></br>
+                        2nd number = <input type="text" name="angka2">
+                        <br></br>
+                        Hasil = <input type="text" id="add" name="hasil" value="">
+                        <br></br>
+                        <input class="button" type="button" name="tambah1" value="+" onClick="tambah()" />
+                        <input class="button" type="button" name="kurang1" value="-" onClick="kurang()" />
+                        <input class="button" type="button" name="kali1" value="*" onClick="kali()" />
+                        <input class="button" type="button" name="bagi1" value="/" onClick="bagi()" />
+                        <input class="button" type="reset" value="Reset" />
+                    </table>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="footer-cell">Copyright &copy; 2018 - MWS Toby Zulkarnain</div>
+        </footer>
+    </div>
+    <script src="../assets/js/menu.js"></script>
+</body>
+
+</html>

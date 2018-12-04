@@ -1,0 +1,33 @@
+{
+    "places": [{
+            "lokasi": [-6.302243, 106.895199],
+            "sponsor": "<p align='center'><b>Taman Mini Indonesia Indah</b><br>Lat:-6.302243 Long:106.895199 <br><br> Wisata TMII Jakarta Ceger, Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820</p>",
+            "gambar": "/assets/images/peta-review/TMII.jpg",
+            "review": "Wisata TMII Jakarta - Taman yang memamerkan budaya & alam Indonesia melalui museum, taman, & replika pemandangan terkenal"
+        },
+        {
+            "lokasi": [-6.311209, 106.820184],
+            "sponsor": "<p align='center'><b>Kebun Binatang Ragunan</b><br>Lat:-6.311209 Long:106.820184 <br><br> Kebun Binatang Ragunan RW.7, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>",
+            "gambar": "/assets/images/peta-review/Kebun-Binatang-Ragunan.jpg",
+            "review": "Kebun binatang Ragunan< - 140 hektar di hutan tropis dengan pusat primata, kebun binatang anak & harimau Sumatra & putih."
+        },
+        {
+            "lokasi": [-6.176265, 106.821590],
+            "sponsor": "<p align='center'><b>Museum Nasional</b><br>Lat:--6.176265 Long:106.821590 <br><br> Gedung Gajah Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta</p>",
+            "gambar": "/assets/images/peta-review/Museum-Nasional.jpg",
+            "review": "Museum Nasional - Museum yang memamerkan benda bersejarah & arkeologis berupa keramik hingga patung & koin."
+        },
+        {
+            "lokasi": [-6.175212, 106.827109],
+            "sponsor": "<p align='center'><b>Monumen Nasional</b><br>Lat:-6.175212 Long:106.827109 <br><br> Monas Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta</p>",
+            "gambar": "/assets/images/peta-review/Monas.jpg",
+            "review": "Monumen Nasional - Museum Sejarah Nasional (Monas) Tempatnya bagus untuk kita bisa mengenal sejarah Nasional Indonesia."
+        },
+        {
+            "lokasi": [-6.218406, 106.801727],
+            "sponsor": "<p align='center'><b>Stadion Utama Gelora Bung Karno</b><br>Lat:-6.218406 Long:106.801727 <br><br> Gelora Bung Karno Jl. Gerbang Pemuda, RT.1/RW.3, Gelora, Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</p>",
+            "gambar": "/assets/images/peta-review/Gelora-Bung-Karno.jpg",
+            "review": "Stadion Utama Gelora Bung Karno - Stadion yang menjadi tuan rumah berbagai acara olahraga & konser outdoor."
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+/* Design CSS Creaete By Toby Zulkarnain*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: #f1f1f1;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-bars,
+.fa-linkedin {
+    height: 1.5em;
+}
+nav div.nav img {
+    width: 24px;
+    height: 24px;
+}
+a {
+    outline: none !important;
+    color: #39556d;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.form{
+    background-color: #fff;
+    height: 480px;
+    font-size: 13px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button{
+    background-color: #b6403c;
+    font-style: bold;
+    font-size: 14px;
+    border: 2px solid #050505;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+ .button:hover{
+    background-color: #f1270c;
+    color: black;
+    font-style: bold;
+    font-family: cursive;
+    cursor: pointer;
+}
+.table{
+    font-family: monospace;
+    font-size: 14px;
+}

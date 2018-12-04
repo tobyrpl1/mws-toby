@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#151a1d">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="shortcut icon" href="../assets/images/icons/icon-72x72.png" type="image/x-icon">
+
+    <title>Toby Zulkarnain - MWS 2018</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/style0.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .grid {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            justify-self: stretch;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 5px;
+            color: #fff;
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+
+        #num-1 {
+            background-color: #eb2f06;
+            grid-column: 1/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #num-2 {
+            background-color: #079992;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #num-3 {
+            background-color: #f6b93b;
+            grid-row: 2/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #num-4 {
+            background-color: #1e3799;
+            grid-column: 2/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #num-5 {
+            background-color: #78e08f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #num-6 {
+            background-color: #b71540;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+                <figure><img src="../assets/images/gdk.png" alt="logo-mws" class="logo"></figure>
+                <span id="by-mws"> <span><b>Mobile Web Specialist</b></span> <span>Jakarta</span></span>
+        </header>
+        <div id="menu-navigation"></div>
+        <div class="main-des">
+            <div class="grid">
+                <div id="num-1">1</div>
+                <div id="num-2">2</div>
+                <div id="num-3">3</div>
+                <div id="num-4">4</div>
+                <div id="num-5">5</div>
+                <div id="num-6">6</div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-cell">Copyright &copy; 2018 - MWS Toby Zulkarnain</div>
+        </footer>
+    </div>
+
+    <script src="../assets/js/menu.js"></script>
+</body>
+
+</html>
